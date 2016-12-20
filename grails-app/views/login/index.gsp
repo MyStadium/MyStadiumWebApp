@@ -62,7 +62,11 @@
                 this application, click on each to execute its default action:
             </p>
 
-            <g:link controller="LoginController" action="renderLoginView">Redirect to login </g:link>
+            <g>
+                <h1>Nom de l'utilisateur: ${nom}</h1>
+                <h1>Prenom de l'utilisateur: ${prenom}</h1>
+                <h1>Mail de l'utilisateur: ${mail}</h1>
+            </g>
 
             <div id="controllers" role="navigation">
                 <h2>Available Controllers:</h2>
